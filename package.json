@@ -3,12 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "workspaces": [
+    "The-Ckickers"
+  ],
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "cd The-Ckickers && npm install && npm run build",
-    "dev": "cd The-Ckickers && npm run dev",
-    "lint": "cd The-Ckickers && npm run lint"
+    "build": "npm run build --prefix The-Ckickers",
+    "dev": "npm run dev --prefix The-Ckickers",
+    "lint": "npm run lint --prefix The-Ckickers"
   }
 }
