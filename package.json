@@ -1,0 +1,14 @@
+{
+  "name": "the-clickers-root",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "cd The-Ckickers && npm install && npm run build",
+    "dev": "cd The-Ckickers && npm run dev",
+    "lint": "cd The-Ckickers && npm run lint"
+  }
+}

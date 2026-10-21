@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd The-Ckickers && npm install && npm run build",
+  "outputDirectory": "The-Ckickers/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
