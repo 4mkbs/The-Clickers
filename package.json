@@ -1,0 +1,17 @@
+{
+  "name": "the-clickers-root",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "The-Ckickers"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "npm run build --prefix The-Ckickers",
+    "dev": "npm run dev --prefix The-Ckickers",
+    "lint": "npm run lint --prefix The-Ckickers"
+  }
+}
