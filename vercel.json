@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install --prefix The-Ckickers",
-  "buildCommand": "npm run build --prefix The-Ckickers",
+  "installCommand": "if [ -d \"The-Ckickers\" ]; then npm install --prefix The-Ckickers; else npm install; fi",
+  "buildCommand": "if [ -d \"The-Ckickers\" ]; then npm run build --prefix The-Ckickers; else npm run build; fi",
   "outputDirectory": "The-Ckickers/dist",
   "framework": "vite",
   "rewrites": [
